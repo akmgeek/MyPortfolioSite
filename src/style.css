@@ -123,13 +123,20 @@ img{
 }
 .sec3{
     height: 100vh;
-    background-color: navajowhite;
+    background-color: black;
 }
 .sec4{
+    border-top: 1px solid lightblue;
     height: 20vh;
     background-color: black;
     padding: 40px;
     text-align: center;
+    color: white;
+    
+}
+
+.footerQuote{
+    padding-top: 30px;
 }
 
 li{
