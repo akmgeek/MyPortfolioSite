@@ -58,7 +58,9 @@ img{
 }
 .sec2{
     height: 100vh;
-    background-color: gray;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
 }
 .sec3{
     height: 100vh;
