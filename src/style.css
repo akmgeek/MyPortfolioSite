@@ -39,6 +39,8 @@ img{
 
 .homeContainer{
     text-align: center;
+    display: inline-block;
+    overflow: auto;
 }
 
 .profilePic{
@@ -60,7 +62,64 @@ img{
     background-color: black;
     padding: 20px;
     text-align: center;
+    color: white;
     
+    
+}
+
+.bar1Border{
+    border: 1px solid grey;
+    height: 2vh;
+    border-radius: 5px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.bar1Container{
+    background-color: yellow;
+    width: 50%;
+    height: 2vh;
+}
+
+.bar2Border{
+    border: 1px solid grey;
+    height: 2vh;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+
+.bar2Container{
+    background-color: green;
+    width: 50%;
+    height: 2vh;
+}
+
+.bar3Border{
+    border: 1px solid grey;
+    height: 2vh;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+
+.bar3Container{
+    background-color: cyan;
+    width: 50%;
+    height: 2vh;
+}
+
+.bar4Border{
+    border: 1px solid grey;
+    height: 2vh;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.bar4Container{
+    background-color: red;
+    width: 50%;
+    height: 2vh;
 }
 .sec3{
     height: 100vh;
