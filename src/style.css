@@ -11,14 +11,13 @@ body{
     padding: 12px;
 
 }
-li{
+.navList{
     display: inline;
     padding: 15px;
     text-decoration: none;
     
-    
 }
-li:hover{
+.navList:hover{
     background-color: red;
     display: inline;
     padding: 15px;
@@ -61,6 +60,7 @@ img{
     background-color: black;
     padding: 20px;
     text-align: center;
+    
 }
 .sec3{
     height: 100vh;
@@ -68,5 +68,14 @@ img{
 }
 .sec4{
     height: 20vh;
-    background-color: rgb(173, 255, 241);
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    padding: 15px;
+    text-decoration: none;
+    
 }
