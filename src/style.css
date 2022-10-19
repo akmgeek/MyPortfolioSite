@@ -128,9 +128,9 @@ img{
 
 
 .outer {
-    width: 500px;
-    height: 100px;
-    white-space: nowrap;
+    width: 100vh;
+    height: 30vh;
+    white-space: nowrap  ;
     position: relative;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -138,11 +138,11 @@ img{
 }
 
 .outer div {
-    width: 24.5%;
+    width: 30%;
     background-color: #eee;
     float: none;
-    height: 90%;
-    margin: 0 0.25%;
+    height: 30vh;
+    margin: 0;
     display: inline-block;
     zoom: 1;
 }
