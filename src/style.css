@@ -15,12 +15,16 @@ ul{
     color: white;
 }
 
-.row{
+.Greeting{
+    font-size: 80pt;
+}
+
+/* .row{
     padding-top: 50px;
     color: white;
     text-align: center;
     background: #000;
-}
+} */
 .col{
     display: flex;
     align-items: center;
