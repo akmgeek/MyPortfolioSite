@@ -14,11 +14,43 @@
         }
         body{
             padding: 5px;
+            color: white;
+            background-color: black;
+        }
+
+        nav{
+          background-color: black;
+          color: green;        
+        }
+        .nav-item{
+          text-align: center;
+        }
+        .nav-link{
+          color: white;
+        }
+
+        .nav-link:hover{
+          color: white;
+          background-color: red;
+          animation: zoom-in-zoom-out 1s ease ;
         }
         #Works{
           text-align: center;
           padding: 5px;
         }
+
+        @keyframes zoom-in-zoom-out {
+          0% {
+            transform: scale(1, 1);
+          }
+          50% {
+            transform: scale(1.5, 1.5);
+          }
+          100% {
+            transform: scale(1, 1);
+          }
+        }
+
         /* img{
             width: 200px;
         } */
@@ -29,10 +61,10 @@
 
 <body >
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
+    <nav class="navbar navbar-expand-lg " aria-label="Tenth navbar example">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon" style="background-color: antiquewhite;"></span>
         </button>
   
         <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
